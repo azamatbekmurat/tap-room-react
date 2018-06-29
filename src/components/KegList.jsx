@@ -1,7 +1,7 @@
 import React from 'react';
 import Keg from './Keg';
 
-masterKegList: [
+var masterKegList = [
     {
       name: 'Ruby Zozzle',
       brewer: 'Hi-Wheel',
@@ -56,8 +56,8 @@ function KegList(){
   return (
     <div>
       <hr/>
-      {masterTicketList.map((keg,index) =>
-        <Keg name={keg.names}
+      {masterKegList.map((keg,index) =>
+        <Keg name={keg.name}
           brewer={keg.brewer}
           description={keg.description}
           abv={keg.abv}

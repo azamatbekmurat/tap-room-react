@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-fuction Keg(props) {
+function Keg(props) {
   return (
     <div>
       <style jsx global>{`

@@ -15,6 +15,7 @@ function App(){
         <Route path='/newkegform' component={NewKegForm} />
         <Route component={Error404} />
       </Switch>
+      <Footer/>
     </div>
   )
 }
