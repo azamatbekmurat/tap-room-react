@@ -8,6 +8,13 @@
 
 This is React app for a bar (or kombucha store) to track their kegs.
 
+<h3> The Layout of the Project </h3>
+<p align="center">
+  <strong>Component structure of Tap Room project </strong>
+  <img src = https://github.com/azamatbekmurat/tap-room-react/blob/master/src/assets/images/TapRoomGeneral.jpg?raw=true" width=700>
+  <br>
+</p>
+
 ## Setup/Installation Requirements
 
 1. Clone this repository from GitHub.
