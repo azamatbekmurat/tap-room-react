@@ -8,18 +8,13 @@ function Header(){
       <Navbar />
         <style jsx>{`
           header {
-            background-color: grey;
-            color: white;
+            background-color: #cae5c5;
+            color: #0a65af;
             text-align: center;
           }
           jumbotron {
             text-align: center;
             background-color: silver;
-          }
-          .imageDisplay {
-            background-image:
-            width: 100%;
-            height: 100px;
           }
         `}</style>
         <h1>Tap Room</h1>

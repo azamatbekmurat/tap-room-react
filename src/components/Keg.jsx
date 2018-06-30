@@ -4,7 +4,7 @@ import Image from './Image';
 
 function Keg(props) {
   return (
-    <div>
+    <div className="color-toggle">
       <style jsx global>{`
         .color-toggle {
           background-color: #a7c3f2;
@@ -13,12 +13,13 @@ function Keg(props) {
           background-color: pink;
         }
       `}</style>
-      <div className="color-toggle">
-        <h3>{props.name} - {props.brewer}</h3>
-        <p><em>{props.description}</em></p>
-        <p><em>{props.abv}</em></p>
-        <p><em>{props.price}</em></p>
-        <p><em>{props.remaining}</em></p>
+      <h3>{props.name}</h3>
+      <div>
+        <p><strong>Brewer: </strong><em>{props.brewer}</em></p>
+        <p><strong>Description: </strong><em>{props.description}</em></p>
+        <p><strong>Alcohol by volume: </strong><em>{props.abv}</em></p>
+        <p><strong>Price: </strong><em>${props.price}</em></p>
+        <p><strong>Remaining: </strong><em>{props.remaining} pints</em></p>
         <Image />
         <hr/>
       </div>

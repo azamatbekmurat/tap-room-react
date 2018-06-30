@@ -6,8 +6,7 @@ function Navbar(){
     <navbar>
       <style jsx>{`
         navbar a {
-          text-decoration: none;
-          color: white;
+          color: 'grey';
           margin-right: 5%;
           margin-left: 7.5%;
         }

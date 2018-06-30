@@ -5,7 +5,6 @@ export default function Footer() {
   let footerStyle = {
     position: 'fixed',
     bottom: '0',
-    left: '0',
     width: '100%',
     boxShadow: '0 0 10px black',
     color: 'white',

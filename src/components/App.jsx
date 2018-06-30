@@ -10,6 +10,14 @@ import AboutUs from './AboutUs'
 function App(){
   return (
     <div>
+      <style jsx global>{`
+          div {
+            margin: 30px 30px 0 30px;
+          }
+          body {
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        `}</style>
       <Header/>
       <Switch>
         <Route exact path='/' component={KegList} />
