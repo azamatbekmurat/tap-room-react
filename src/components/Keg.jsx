@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Image from './Image';
 
 function Keg(props) {
   return (
     <div>
       <style jsx global>{`
         .color-toggle {
-          background-color: green;
+          background-color: #a7c3f2;
         }
         .color-toggle:hover {
           background-color: pink;
@@ -18,6 +19,7 @@ function Keg(props) {
         <p><em>{props.abv}</em></p>
         <p><em>{props.price}</em></p>
         <p><em>{props.remaining}</em></p>
+        <Image />
         <hr/>
       </div>
 

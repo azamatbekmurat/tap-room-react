@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 import KegList from './KegList'
 import NewKegForm from './NewKegForm'
 import Error404 from './Error404'
+import AboutUs from './AboutUs'
 
 function App(){
   return (
@@ -13,6 +14,7 @@ function App(){
       <Switch>
         <Route exact path='/' component={KegList} />
         <Route path='/newkegform' component={NewKegForm} />
+        <Route path='/about' component={AboutUs} />
         <Route component={Error404} />
       </Switch>
       <Footer/>

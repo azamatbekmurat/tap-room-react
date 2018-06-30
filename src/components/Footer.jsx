@@ -9,7 +9,7 @@ export default function Footer() {
     width: '100%',
     boxShadow: '0 0 10px black',
     color: 'white',
-    backgroundColor: 'blue',
+    backgroundColor: '#5e759b',
     textAlign: 'center'
   }
 
