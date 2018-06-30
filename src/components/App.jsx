@@ -22,7 +22,7 @@ function App(){
       <Switch>
         <Route exact path='/' component={KegList} />
         <Route path='/newkegform' component={NewKegForm} />
-        <Route path='/about' component={AboutUs} />
+        <Route path='/aboutus' component={AboutUs} />
         <Route component={Error404} />
       </Switch>
       <Footer/>
