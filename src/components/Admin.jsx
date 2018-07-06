@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import KegList from './KegList'
+import KegDetail from './KegDetail'
 
 function Admin(props){
   let optionalSelectedKegContent = null;
