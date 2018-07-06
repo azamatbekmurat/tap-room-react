@@ -11,7 +11,7 @@ This is React app for a bar (or kombucha store) to track their kegs where user c
 <h3> The Layout of the Project </h3>
 <p align="center">
   <strong>Component structure of Tap Room project </strong>
-  <img src = https://github.com/azamatbekmurat/tap-room-react/blob/master/src/assets/images/tap-room-layout.jpg?raw=true" width=700>
+  <img src = https://github.com/azamatbekmurat/tap-room-react/blob/master/src/assets/images/TapRoom.jpg?raw=true" width=700>
   <br>
 </p>
 
