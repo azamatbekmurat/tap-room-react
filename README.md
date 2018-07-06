@@ -6,7 +6,7 @@
 
 ## Description
 
-This is React app for a bar (or kombucha store) to track their kegs.
+This is React app for a bar (or kombucha store) to track their kegs where user can see the list of kegs.
 
 <h3> The Layout of the Project </h3>
 <p align="center">
