@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar(){
   return(
@@ -16,8 +16,8 @@ function Navbar(){
       `}</style>
       <Link to="/"> Home </Link><Link to="/newkegform"> Create new keg! </Link><Link to="/aboutus"> About Us </Link>
     </navbar>
-  );
+  )
 }
 
 
-export default Navbar;
+export default Navbar

@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Image from './Image';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Image from './Image'
 
 function Keg(props) {
   return (
@@ -25,7 +25,7 @@ function Keg(props) {
       </div>
 
     </div>
-  );
+  )
 }
 
 Keg.progTypes = {
@@ -36,4 +36,4 @@ Keg.progTypes = {
   price: PropTypes.number,
   remaining: PropTypes.number
 }
-export default Keg;
+export default Keg

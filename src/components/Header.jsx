@@ -6,7 +6,7 @@ function Header(){
   return (
     <header>
       <Navbar />
-        <style jsx>{`
+      <style jsx>{`
           header {
             background-color: #cae5c5;
             color: #0a65af;
@@ -17,8 +17,8 @@ function Header(){
             background-color: silver;
           }
         `}</style>
-        <h1>Tap Room</h1>
-      </header>
+      <h1>Tap Room</h1>
+    </header>
   )
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function NewKegForm() {
   var inputStyle =  {
@@ -52,7 +52,7 @@ function NewKegForm() {
         <button style={button} type='submit'>Add new keg!</button>
       </form>
     </div>
-  );
+  )
 }
 
-export default NewKegForm;
+export default NewKegForm
