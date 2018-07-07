@@ -9,7 +9,7 @@ class NewKegControl extends React.Component {
     super(props)
     this.state = {
       formVisibleOnPage: false,
-      testState: 'hey!'
+      // testState: 'hey!'
     }
     this.handleTroubleshootingConfirmation = this.handleTroubleshootingConfirmation.bind(this)
   }

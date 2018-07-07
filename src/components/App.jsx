@@ -26,7 +26,7 @@ class App extends React.Component {
   componentDidMount() {
     this.waitTimeUpdateTimer = setInterval(() =>
       this.updateKegElapsedWaitTime(),
-      60000
+    60000
     )
   }
 
@@ -54,9 +54,9 @@ class App extends React.Component {
     var newKegId = v4()
     var newMasterKegList = Object.assign({}, this.state.masterKegList, {
       [newKegId]: newKeg
-    });
-    newMasterKegList[newKegId].formattedWaitTime = newMasterKegList[newKegId].timeOpen.fromNow(true);
-    this.setState({masterKegList: newMasterKegList});
+    })
+    newMasterKegList[newKegId].formattedWaitTime = newMasterKegList[newKegId].timeOpen.fromNow(true)
+    this.setState({masterKegList: newMasterKegList})
   }
 
   render(){

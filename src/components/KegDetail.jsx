@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Image from './Image'
 
 function KegDetail(props){
   return (
@@ -10,7 +11,8 @@ function KegDetail(props){
         <p><strong>Description: </strong><em>{props.selectedKeg.description}</em></p>
         <p><strong>Alcohol by volume: </strong><em>{props.selectedKeg.abv}</em></p>
         <p><strong>Price: </strong><em>${props.selectedKeg.price}</em></p>
-        <p><strong>Remaining: </strong><em>${props.selectedKeg.remaining}</em></p>
+        <p>Submitted {props.selectedKeg.formattedWaitTime} ago</p>
+        <p><strong>Remaining: </strong><em>{props.selectedKeg.remaining}</em></p>
         <Image />
         <hr/>
       </div>

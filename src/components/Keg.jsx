@@ -19,23 +19,24 @@ function Keg(props) {
         <p><strong>Description: </strong><em>{props.description}</em></p>
         <p><strong>Alcohol by volume: </strong><em>{props.abv}</em></p>
         <p><strong>Price: </strong><em>${props.price}</em></p>
+        <p>Submitted {props.formattedWaitTime} ago</p>
         <Image />
         <hr/>
       </div>
     </div>
-    if (props.currentRouterPath === '/admin'){
-      return (
-        <div onClick={() => {props.onKegSelection(props.kegId)}}>
-          {kegInformation}
-        </div>
-      )
-    } else {
-      return (
-        <div>
-          {kegInformation}
-        </div>
-      )
-    }
+  if (props.currentRouterPath === '/admin'){
+    return (
+      <div onClick={() => {props.onKegSelection(props.kegId)}}>
+        {kegInformation}
+      </div>
+    )
+  } else {
+    return (
+      <div>
+        {kegInformation}
+      </div>
+    )
+  }
 
 }
 
@@ -47,6 +48,7 @@ Keg.progTypes = {
   price: PropTypes.number,
   remaining: PropTypes.number,
   kegId: PropTypes.string.isRequired,
+  formattedWaitTime: PropTypes.string.isRequired,
   currentRouterPath: PropTypes.string,
   onKegSelection: PropTypes.func
 }

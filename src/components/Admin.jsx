@@ -4,9 +4,9 @@ import KegList from './KegList'
 import KegDetail from './KegDetail'
 
 function Admin(props){
-  let optionalSelectedKegContent = null;
+  let optionalSelectedKegContent = null
   if (props.selectedKeg != null){
-    optionalSelectedKegContent = <KegDetail selectedKeg={props.kegList[props.selectedKeg]}/>;
+    optionalSelectedKegContent = <KegDetail selectedKeg={props.kegList[props.selectedKeg]}/>
   }
   return (
     <div>
@@ -15,7 +15,7 @@ function Admin(props){
       <KegList
         kegList={props.kegList}
         currentRouterPath={props.currentRouterPath}
-        onKegSelection={props.onKegSelection}
+        onKegSelection={props.onKegSelection}/>
     </div>
   )
 }
