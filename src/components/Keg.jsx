@@ -40,7 +40,7 @@ function Keg(props) {
 
 }
 
-Keg.progTypes = {
+Keg.propTypes = {
   name: PropTypes.string.isRequired,
   brewer: PropTypes.string.isRequired,
   description: PropTypes.string,

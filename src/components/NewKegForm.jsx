@@ -12,7 +12,7 @@ function NewKegForm(props) {
   let _remaining = null
 
   function handleNewKegFormSubmission(event) {
-    event.preventDefauld()
+    event.preventDefault()
     props.onNewKegCreation({name: _name.value, brewer: _brewer.value, description: _description.value, abv: _abv.value, price: _price.value, remaining: _remaining.value, timeOpen: new Moment()})
     _name.value = ''
     _brewer.value = ''
@@ -69,7 +69,7 @@ function NewKegForm(props) {
           style={inputStyle}
           type='text'
           id='remaining'
-          placeholder='Volume'
+          placeholder='Remaining'
           ref={(input) => {_remaining = input}}/>
         <textarea
           style={inputStyle}

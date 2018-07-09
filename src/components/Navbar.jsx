@@ -14,7 +14,7 @@ function Navbar(){
           color: red;
         }
       `}</style>
-    <Link to="/"> Home </Link> | <Link to="/newkegform"> Create new keg </Link> | <Link to="/admin">Admin</Link> | <Link to="/aboutus"> About Us </Link>
+      <Link to="/"> Home </Link> | <Link to="/newkegform"> Create new keg </Link> | <Link to="/admin">Admin</Link> | <Link to="/aboutus"> About Us </Link>
     </navbar>
   )
 }
